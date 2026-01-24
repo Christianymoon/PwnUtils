@@ -64,22 +64,7 @@ function pwnUtils.newProgressBar(line, name)
 	}
 end
 
-print("")
-print("")
-print("")
-bar = pwnUtils.newProgressBar(1, "Cargando")
-bar.update(0)
-bar2 = pwnUtils.newProgressBar(2, "Reiniciando ...")
-bar4 = pwnUtils.newAnimationBar("Hola...")
-
-for i = 1,10 do
-	os.execute("sleep 1")
-	bar2.update(i / 10)
-	bar.update(i / 10)
-	bar4.step()
-end 
-
-bar4.stop()
+return pwnUtils
 
 
 
