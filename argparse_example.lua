@@ -1,4 +1,4 @@
-local utils = require('pwnUtils')
+local utils = require('argparse.argparse')
 
 argparse = utils.ArgumentParse(arg)
 argparse.setopts("h", "This call helps")
