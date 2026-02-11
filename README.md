@@ -617,4 +617,4 @@ Las contribuciones son bienvenidas. Si encuentras algún bug o tienes sugerencia
 
 ## 📄 Licencia
 
-Este proyecto está disponible para uso libre.
+
